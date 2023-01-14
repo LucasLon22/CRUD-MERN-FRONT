@@ -48,9 +48,9 @@ useEffect(() => {
               <li className='list-group-item fondo-agregarUsuarios'>{usuario.telefono}</li>
             </ul>
             
-            <Link to={`/editarusuario/${usuario.idusuario}`}><li className='btn btn-success'>Editar</li></Link>
+            <Link to={`/editarusuario/${usuario.idusuario}`}><li className='btn btn-light mt-3 me-2'>Editar</li></Link>
             &nbsp;
-          <button className='btn btn-danger mt-3' onClick={() =>{borrarUsuario(usuario.idusuario)}}>Borrar</button>
+            <button className='btn btn-light mt-3 ms-2' onClick={() =>{borrarUsuario(usuario.idusuario)}}>Borrar</button>
             <hr className='mt-4' />
           </div>
         </div>
